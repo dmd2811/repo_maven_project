@@ -6,31 +6,32 @@ public class CalculatorTest {
 	@Test
     public void testAdd1() {
 		Calculator cal = new Calculator();
-        int result = cal.add(2, 3);
-        assertEquals(5, result);
+		int result = cal.add(5, 5);
+		assertEquals(10, result);
     }
 	@Test
-    public void testAdd2() {
+	public void testAdd2() {
 		Calculator cal = new Calculator();
-        int result = cal.add(2, 4);
-        assertEquals(5, result);
+		int result = cal.add(1, 2);
+		assertEquals(10, result);
     }
 	@Test
     public void testAdd3() {
 		Calculator cal = new Calculator();
-        int result = cal.add(3, 2);
-        assertEquals(5, result);
+		int result = cal.add(3, 7);
+		assertEquals(10, result);
     }
 	@Test
-    public void testAdd4() {
+	public void testAdd4() {
 		Calculator cal = new Calculator();
-        int result = cal.add(4, 4);
-        assertEquals(5, result);
+		int result = cal.add(10, 2);
+		assertEquals(10, result);
     }
 	@Test
     public void testAdd5() {
 		Calculator cal = new Calculator();
-        int result = cal.add(6, 3);
-        assertEquals(5, result);
-    }
+		int result = cal.add(8, 2);
+		assertEquals(10, result);
+	}
+	
 }
